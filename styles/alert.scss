@@ -1,0 +1,17 @@
+@keyframes alert-animation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+div {
+  &[role="alert"] {
+    z-index: 999;
+    animation: alert-animation 0.2s ease-in-out alternate forwards;
+  }
+}

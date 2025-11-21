@@ -1,0 +1,60 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Blog",
+      "url": "/blogs"
+    },
+    {
+      "name": "Donation",
+      "url": "/donation"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Pages",
+      "menu": [
+        {
+          "text": "Home",
+          "url": "/"
+        },
+        {
+          "text": "Blogs",
+          "url": "/blogs"
+        },
+        {
+          "text": "Donation",
+          "url": "/donation"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "menu": [
+        {
+          "text": "FAQ",
+          "url": "#"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

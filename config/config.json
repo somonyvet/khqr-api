@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "1Light Cambodia",
+    "base_url": "/",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo.png",
+    "logo_width": "70",
+    "logo_height": "70",
+    "logo_text": "1Light Cambodia"
+  },
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Contact",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Access expert guidance and real-life stories to manage pressure, navigate social media, and thrive during and after your pageant journey.",
+    "copyright": "Designed and Developed By 1Light Cambodia"
+  },
+
+  "metadata": {
+    "meta_author": "1Light Cambodia",
+    "meta_image": "",
+    "meta_description": "Access expert guidance and real-life stories to manage pressure, navigate social media, and thrive during and after your pageant journey."
+  }
+}
