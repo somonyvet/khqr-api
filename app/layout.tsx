@@ -1,20 +1,9 @@
-import config from "@config/config.json";
-import theme from "@config/theme.json";
-import Footer from "@partials/Footer";
-import Header from "@partials/Header";
-import Providers from "@partials/Providers";
-import "../styles/style.scss";
-
-import NextTopLoader from "nextjs-toploader";
-
 export const metadata = {
-    title: "1Light Cambodia",
+    title: "1Light World",
     description: "Raising mental heath awareness for Beauty Pageant",
 }
 
 export default function RootLayout({children}) {
-    const pf = theme.fonts.font_family.primary;
-
     return (
         <html suppressHydrationWarning={true} lang="en">
         <head>
@@ -25,7 +14,6 @@ export default function RootLayout({children}) {
             />
 
             {/* favicon */}
-            <link rel="shortcut icon" href={config.site.favicon}/>
             {/* theme meta */}
             <meta name="theme-name" content="andromeda-light-nextjs"/>
 
@@ -34,10 +22,6 @@ export default function RootLayout({children}) {
                 rel="preconnect"
                 href="https://fonts.gstatic.com"
                 crossOrigin="anonymous"
-            />
-            <link
-                href={`https://fonts.googleapis.com/css2?family=${pf}&display=swap`}
-                rel="stylesheet"
             />
 
             {/* theme meta */}
@@ -56,10 +40,7 @@ export default function RootLayout({children}) {
             <title>{metadata.title}</title>
         </head>
         <body suppressHydrationWarning={true}>
-        <NextTopLoader color="#7458b1" showSpinner={false}/>
-        <Header/>
-        <Providers>{children}</Providers>
-        <Footer/>
+        {children}
         </body>
         </html>
     )
